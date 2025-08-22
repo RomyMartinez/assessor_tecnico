@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "accessor_tecnico",
-    "slug": "accessor_tecnico",
+    "name": "assessor_tecnico",
+    "slug": "assessor_tecnico",
     "version": "1.0.0",
+    "scheme": "your-app-scheme",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -24,6 +25,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ]
   }
 }

@@ -28,6 +28,7 @@ export const colors = {
   neutral: {
     white: '#FFFFFF',
     light_gray: '#BFBFBF',
+    regular_gray: '#e5e5e5',
     medium_gray: '#a7a5a5',
     dark_gray: '#666666',
     dark: '#333333',

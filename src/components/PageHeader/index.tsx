@@ -1,4 +1,4 @@
-import { View, Text, Image } from 'react-native';
+import { View, Text, Image, TouchableOpacity } from 'react-native';
 import styles from './styles';
 import { MaterialIcons } from '@expo/vector-icons';
 import { colors } from '@/theme/color';
@@ -17,20 +17,20 @@ export function PageHeader() {
         </View>
       </View>
       <View style={styles.iconContainer}>
-        <Text>
+        <TouchableOpacity activeOpacity={0.7}>
           <MaterialIcons
             name="support-agent"
             size={32}
             color={colors.secondary.dark}
           />
-        </Text>
-        <Text>
+        </TouchableOpacity>
+        <TouchableOpacity activeOpacity={0.7}>
           <MaterialIcons
             name="notifications"
             size={32}
             color={colors.secondary.dark}
           />
-        </Text>
+        </TouchableOpacity>
       </View>
     </View>
   );

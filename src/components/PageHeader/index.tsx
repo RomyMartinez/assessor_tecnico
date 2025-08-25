@@ -2,6 +2,7 @@ import { View, Text, Image, TouchableOpacity } from 'react-native';
 import styles from './styles';
 import { MaterialIcons } from '@expo/vector-icons';
 import { colors } from '@/theme/color';
+import { router } from 'expo-router';
 
 export function PageHeader() {
   return (
@@ -17,14 +18,20 @@ export function PageHeader() {
         </View>
       </View>
       <View style={styles.iconContainer}>
-        <TouchableOpacity activeOpacity={0.7}>
+        <TouchableOpacity
+          activeOpacity={0.7}
+          onPress={() => router.push('../support')}
+        >
           <MaterialIcons
             name="support-agent"
             size={32}
             color={colors.secondary.dark}
           />
         </TouchableOpacity>
-        <TouchableOpacity activeOpacity={0.7}>
+        <TouchableOpacity
+          activeOpacity={0.7}
+          onPress={() => router.push('/notification')}
+        >
           <MaterialIcons
             name="notifications"
             size={32}

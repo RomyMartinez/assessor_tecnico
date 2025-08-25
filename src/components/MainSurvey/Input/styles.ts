@@ -5,11 +5,13 @@ export const styles = StyleSheet.create({
   container: {
     width: '100%',
     flexDirection: 'row',
+    height: 68,
     gap: 8,
   },
   inputContainer: {
     flex: 1,
     flexDirection: 'row',
+    alignItems: 'center',
     overflow: 'hidden',
     borderWidth: 2,
     paddingHorizontal: 24,
@@ -20,6 +22,7 @@ export const styles = StyleSheet.create({
     borderRadius: 20,
   },
   input: {
+    height: 68,
     flex: 1,
     fontFamily: fontFamily.regular,
     fontSize: 16,

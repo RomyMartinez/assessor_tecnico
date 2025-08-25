@@ -11,5 +11,8 @@ export interface Survey {
   };
   data: {
     name: string;
+    location: string;
+    description: string;
+    phone: string;
   };
 }

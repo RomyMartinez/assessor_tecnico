@@ -24,7 +24,7 @@ export function ProfilePicture({ data }: ProfilePictureProps) {
     <View style={styles.container}>
       <View style={styles.imageContainer}>
         <Image source={data.src} style={styles.image} />
-        <TouchableOpacity style={styles.badge}>
+        <TouchableOpacity style={styles.badge} activeOpacity={0.8}>
           <MaterialCommunityIcons
             name="pencil-outline"
             size={24}

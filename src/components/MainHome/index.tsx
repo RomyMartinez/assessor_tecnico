@@ -49,7 +49,6 @@ export function MainHome() {
       </View>
       <Separator color={colors.neutral.regular_gray} />
       <Carousel items={items} />
-      <Separator color={colors.neutral.regular_gray} />
     </View>
   );
 }

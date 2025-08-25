@@ -5,7 +5,7 @@ import {
   type ImageSourcePropType,
   TouchableOpacity,
 } from 'react-native';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { styles } from './styles';
 import { MaterialIcons } from '@expo/vector-icons';
 

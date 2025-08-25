@@ -32,5 +32,6 @@ export const colors = {
     medium_gray: '#a7a5a5',
     dark_gray: '#666666',
     dark: '#333333',
+    whiteOpaque: 'rgba(255, 255, 255, 0.8)',
   },
 };

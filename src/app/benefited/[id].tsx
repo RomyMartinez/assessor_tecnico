@@ -1,10 +1,10 @@
-import { View, Text } from 'react-native';
-import { useLocalSearchParams } from 'expo-router';
-import { colors, fontFamily } from '@/theme';
-import { surveys } from '@/util/data';
-import NotFound from '@/components/NotFound';
-import { BackButton } from '@/components/BackButton';
-import { SurveyDescription } from '@/components/SurveyDescription';
+import { View, Text } from "react-native";
+import { useLocalSearchParams } from "expo-router";
+import { colors, fontFamily } from "@/theme";
+import { surveys } from "@/util/data";
+import NotFound from "@/components/NotFound";
+import { BackButton } from "@/components/BackButton";
+import { SurveyDescription } from "@/components/SurveyDescription";
 
 export default function Benefited() {
   const { id } = useLocalSearchParams();
@@ -22,6 +22,7 @@ export default function Benefited() {
         backgroundColor: colors.background.light,
         paddingVertical: 80,
         paddingHorizontal: 16,
+        gap: 24,
       }}
     >
       <View>
@@ -31,7 +32,7 @@ export default function Benefited() {
             fontSize: 40,
             fontFamily: fontFamily.extraBold,
             color: colors.primary.light,
-            textAlign: 'center',
+            textAlign: "center",
           }}
         >
           #{id}

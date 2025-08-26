@@ -14,5 +14,6 @@ export interface Survey {
     location: string;
     description: string;
     phone: string;
+    images: string[];
   };
 }

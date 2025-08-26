@@ -16,6 +16,10 @@ export const surveys: Survey[] = [
       description:
         'Oi, eu não entendo muito de obra, mas preciso arrumar o quarto aqui de casa, tem alguns buracos na parede e não sei o que é necessário para arrumar.',
       phone: '22 99999-999',
+      images: [
+        'https://via.placeholder.com/150',
+        'https://via.placeholder.com/150',
+      ],
     },
   },
   {
@@ -33,6 +37,10 @@ export const surveys: Survey[] = [
       description:
         'Oi, eu não entendo muito de obra, mas preciso arrumar o quarto aqui de casa, tem alguns buracos na parede e não sei o que é necessário para arrumar.',
       phone: '22 99999-999',
+      images: [
+        'https://via.placeholder.com/150',
+        'https://via.placeholder.com/150',
+      ],
     },
   },
   {
@@ -50,6 +58,10 @@ export const surveys: Survey[] = [
       description:
         'acabei de reformar minha casa e sobraram alguns mateiais: areia, cimento, brita... gostaria de fazer uma doação',
       phone: '22 99999-999',
+      images: [
+        'https://via.placeholder.com/150',
+        'https://via.placeholder.com/150',
+      ],
     },
   },
 ];

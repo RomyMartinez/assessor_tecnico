@@ -32,8 +32,8 @@ export default function Layout() {
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: colors.primary.dark,
-        tabBarInactiveTintColor: colors.neutral.white,
+        tabBarActiveTintColor: colors.neutral.white,
+        tabBarInactiveTintColor: colors.secondary.dark,
         headerShown: false,
         tabBarLabelStyle: {
           fontFamily: fontFamily.regular,
@@ -43,7 +43,7 @@ export default function Layout() {
         tabBarStyle: {
           width: "100%",
           height: 80,
-          backgroundColor: colors.primary.light,
+          backgroundColor: colors.secondary.light,
         },
         tabBarItemStyle: {
           borderRadius: 10,

@@ -1,5 +1,7 @@
-type SurveyState = 'active' | 'cancelled' | 'finalized';
-type SurveyType = 'Beneficiado' | 'Doador' | 'Coleta';
+import type { ImageSourcePropType } from "react-native";
+
+type SurveyState = "active" | "cancelled" | "finalized";
+type SurveyType = "Beneficiado" | "Doador" | "Coleta";
 
 export interface Survey {
   id: string;
@@ -14,6 +16,6 @@ export interface Survey {
     location: string;
     description: string;
     phone: string;
-    images: string[];
+    images: ImageSourcePropType[];
   };
 }

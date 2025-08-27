@@ -11,8 +11,8 @@ export function SurveyDescriptionImageRow({
 }: SurveyDescriptionImageRowProps) {
   return (
     <View style={styles.container}>
-      {images.map((image) => (
-        <SurveyDescriptionImage image={image} />
+      {images.map((image, index) => (
+        <SurveyDescriptionImage key={index} image={image} />
       ))}
     </View>
   );
